@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html" style="font-family: Copperplate, Papyrus, fantasy;">BN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Copperplate, Papyrus, fantasy;">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projets.html">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="competences.html">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html" style="color: white;">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact" class="py-5" style="font-family: Copperplate, Papyrus, fantasy;">
+        <div class="container">
+            <h2 class="text-center mb-4" >Contactez-moi</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="nom" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark" >Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
